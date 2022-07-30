@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&display=swap');
+
+/*
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;*/
+
+body{
+    background-color: #f2e9e4;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.containerperfume{
+    margin: 20px 10px;
+}
+
+.imgperfume{
+    max-width: 100%;
+}
+
+.containertexto{
+    padding: 20px;
+}
+.containertexto p{
+
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #8d8d97;
+    text-transform: uppercase;
+
+}
+.containertexto h1{
+    font-family: 'Fraunces', serif;
+    color: black;
+    letter-spacing: 4px;
+    
+}
+.p1{
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #8d8d97;
+
+}
+
+.preco{
+    
+    display: flex;
+    align-items: center;
+}
+
+.preco p{
+
+    font-size: 10px;
+    padding: 15px;
+}
+.preco h2{
+
+    color: #458c6b;
+}
+
+.button {
+    
+    margin:10px 20px ;
+    
+}
+
+.button button{
+    height: 50px;
+    width: 100%;
+    background-color: #458c6b;
+    color: white;
+    font-size: 20px;
+    
+}
