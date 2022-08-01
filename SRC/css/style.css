@@ -14,15 +14,24 @@
 body{
     background-color: #f2e9e4;
     font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    display: flex;
+    
 
 }
-
+.corpo{
+    max-width: 600px;
+    align-items: center;
+    margin: auto;
+}
 .containerperfume{
     margin: 20px 10px;
+    max-width: 100%;
 }
 
-.imgperfume{
+.containerperfume img{
     max-width: 100%;
+    margin: 15px;
 }
 
 .containertexto{
@@ -78,4 +87,35 @@ body{
     color: white;
     font-size: 20px;
     
+}
+
+@media (min-width: 768px){
+    .corpo{
+        margin: 10px;
+        
+        display: flex;
+        
+        border: 2px solid black;
+    }
+
+    .containerperfume{
+       
+        
+        min-width: 50%;
+        margin: 0px;
+
+    }
+    .containertexto{
+        padding: 20px;
+        margin: 15px;
+        align-items: center;
+    }
+  
+
+}
+
+@media (min-width: 1440px){
+    .blocodireita{
+        align-items: center;
+    }
 }

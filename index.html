@@ -10,7 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <link rel="stylesheet" href="./SRC/css/style.css">
+
 
 
 
@@ -21,12 +23,16 @@
 </head>
 
 <body>
-    <section>
+    <section class="corpo">
         <div class="containerperfume">
-            <img class="imgperfume" src="images/image-product-mobile.jpg" alt="">
+            <picture>
+                <source media="(min-width:768px)" srcset="/SRC/images/image-product-desktop.jpg">
+                <img src="./SRC/images/image-product-mobile.jpg" alt="">
+            </picture>
         </div>
-
+    
         <div class="containertexto">
+            <div class="blocodireita">
             <p>Perfume</p>
 
             <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -38,11 +44,14 @@
 
                 <p>$ 169,99<p>
             </div>
-        </div>
 
-        <div class="button">
+            <div class="button">
             <button><img src="images/icon-cart.svg" alt=""> Add to Cart</button>
         </div>
+        </div>
+    </div>
+
+        
     </section>
 
 </body>
