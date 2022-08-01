@@ -20,7 +20,8 @@ body{
 
 }
 .corpo{
-    max-width: 600px;
+    background-color: aliceblue;
+    
     align-items: center;
     margin: auto;
 }
@@ -30,8 +31,9 @@ body{
 }
 
 .containerperfume img{
-    max-width: 100%;
-    margin: 15px;
+    border-radius: 20px ;
+    width: 100%;
+    
 }
 
 .containertexto{
@@ -67,7 +69,7 @@ body{
 .preco p{
 
     font-size: 10px;
-    padding: 15px;
+    margin-left: 10px;
 }
 .preco h2{
 
@@ -95,7 +97,8 @@ body{
         
         display: flex;
         
-        border: 2px solid black;
+        
+        border-radius: 20px;
     }
 
     .containerperfume{
@@ -106,11 +109,14 @@ body{
 
     }
     .containertexto{
-        padding: 20px;
-        margin: 15px;
+       
         align-items: center;
     }
-  
+    .containerperfume img{
+        max-width: 100%;
+        
+        
+    }
 
 }
 
